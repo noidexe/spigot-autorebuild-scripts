@@ -7,6 +7,8 @@ git config --global core.autocrlf true
 mkdir build
 cd build
 # Download the latest version of BuildTools.jar and execute it
+# Replace \Program Files\ with \Program Files (x86)\ if you're 
+# using 32bit windows
 curl -o BuildTools.jar https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar && 
 JAVA_HOME="C:\Program Files\Java\jdk1.8.0_25" java -jar BuildTools.jar ||
 (echo "Build failed" ; git config --global core.autocrlf $git_autocrlf; exit 1)
