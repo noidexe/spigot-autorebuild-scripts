@@ -13,7 +13,7 @@ WINDOWS PREREQUISITES
 LINUX PREREQUISITES
 -------------------
 Make sure you have git and the java jdk installed. For Debian / Ubuntu based servers simply run the command: sudo apt-get install git openjdk-7-jdk, or for CentOS based servers: sudo yum install git java-1.7.0-openjdk-devel.
-Open rebuild.sh in any text editor and follow the instructions in the comments. You just need to remove two lines of code. 
+**Make sure you are using the linux branch of this repo**.
 
 USAGE
 -----
